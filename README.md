@@ -35,7 +35,9 @@ That should be it.
 
 ## Config
 
-Leader key is **,**. **-** is mapped to :.
+Leader key is **,**. 
+
+Use **-** instead of **:**.
 
 **š** moves to the first non white in line. **đ** moves to end of line. **ž** moves to beginning of line.
 
@@ -48,7 +50,7 @@ You can use &lt;C-J|K|H|L&gt; to navigate windows.
 **&lt;C-P&gt;** will trigger CtrlP.
 **&lt;F3&gt;** will toggle paste mode.
 
-**,tn** will open new tab. **,tc** will close tab. **,te** will ask you for a faile and open it in new tab.
+**,tn** will open new tab. **,tc** will close tab. **,te** will ask you for a file and open it in new tab.
 
 
 
