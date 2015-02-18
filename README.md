@@ -39,13 +39,14 @@ Leader key is **,**. **-** is mapped to :.
 
 **š** moves to the first non white in line. **đ** moves to end of line. **ž** moves to beginning of line.
 
-You can use <C-J|K|H|L> to navigate windows.
+You can use &lt;C-J|K|H|L&gt; to navigate windows.
 
 **,rr** to reload `_vimrc`.
 **,/** to toggle search highlights.
 
-**<F4>** will open NERDTree.
-**<C-P>** will trigger CtrlP.
+**&lt;F4&gt;** will open NERDTree.
+**&lt;C-P&gt;** will trigger CtrlP.
+**&lt;F3&gt;** will toggle paste mode.
 
 **,tn** will open new tab. **,tc** will close tab. **,te** will ask you for a faile and open it in new tab.
 
