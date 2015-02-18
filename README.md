@@ -15,8 +15,10 @@ From gVim installation directory (C:\Program Files (x86)\Vim on my Win7):
 2. Delete vim74/autoload directory
 3. Delete `_vimrc` file
 4. Run `git clone https://github.com/stjepano/myvimconfig.git` 
-5. Run `git submodule init`
-6. Run `git submodule update`
+5. cd into $VIMDIR/mygitconfig and move (cut) all files into $VIMDIR (including hidden and .git files)
+6. cd into $VIMDIR and delete myvimconfig directory
+7. Run `git submodule init`
+8. Run `git submodule update`
 
 That should be it.
 

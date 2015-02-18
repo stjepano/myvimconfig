@@ -70,6 +70,7 @@ set hlsearch
 set lazyredraw " no redraw while executing macros
 set showmatch " show matching brackets
 set noerrorbells
+set visualbell
 syntax enable
 set encoding=utf8
 set ai  " Auto indent
