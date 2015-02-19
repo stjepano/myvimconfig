@@ -45,8 +45,11 @@ Use **-** instead of **:**.
 
 You can use &lt;C-J|K|H|L&gt; to navigate windows.
 
+**,ev** to edit _vimrc.
 **,rr** to reload `_vimrc`.
 **,/** to toggle search highlights.
+
+You can use **,eh** to edit hosts file.
 
 **&lt;F4&gt;** will open NERDTree.
 **&lt;C-P&gt;** will trigger CtrlP.
@@ -54,6 +57,7 @@ You can use &lt;C-J|K|H|L&gt; to navigate windows.
 
 **,tn** will open new tab. **,tc** will close tab. **,te** will ask you for a file and open it in new tab.
 
+**,f** to find currently opened file in NERDTree.
 
 
 

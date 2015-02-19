@@ -57,6 +57,7 @@ set autoread
 set nobackup
 set nowb
 set noswapfile
+set nowrap
 set expandtab
 set smarttab
 set shiftwidth=4
@@ -81,7 +82,7 @@ set laststatus=2
 set pastetoggle=<F2>
 
 " SuperTab
-let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " CtrlP
 let g:ctrlp_map = '<C-P>'
@@ -90,10 +91,13 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " NERDTree
 map <F4> :NERDTreeToggle<CR>
+map <leader>f :NERDTreeFind<CR>
 
 " Some mappings
 map <leader>rr :source $VIM\_vimrc<CR>
 map <leader>/  :set hlsearch!<CR>
+map <leader>ev :e $VIM\_vimrc<CR>
+map <leader>eh :e C:\Windows\System32\drivers\etc\hosts<CR>
 
 noremap š ^
 noremap đ $
