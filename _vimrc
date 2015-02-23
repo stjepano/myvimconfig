@@ -51,7 +51,7 @@ if has('gui_running')
     set guioptions-=L
 endif
 set background=dark
-colorscheme solarized
+colorscheme molokai
 
 set autoread
 set nobackup
@@ -78,10 +78,14 @@ set ai  " Auto indent
 set si  " Smart indent
 set laststatus=2
 
+" emmet
+let g:user_emmet_leader_key ='<c-y>'
 " Paste
 set pastetoggle=<F2>
 
 " SuperTab
+let g:SuperTabMappingForward = '<c-space>'
+let g:SuperTabMappingBackward = '<s-c-space>'
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " CtrlP
@@ -113,6 +117,8 @@ map <leader>tn :tabnew<CR>
 map <leader>tc :tabclose<CR>
 map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
 
+map <leader>= :Tabularize /=<CR>
+
 " Switchbuf behavious
 try 
     set switchbuf=useopen,usetab,newtab
@@ -135,3 +141,4 @@ set statusline+=\ %P    "percent through file
 set statusline+=%=
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
+

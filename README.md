@@ -1,4 +1,4 @@
-# My Vim Config - by Stjepan Obranković
+# My Vim Config
 
 This VIM config is intended for use on Windows (gVim) and with Croatian keyboards. You have been warned.
 
@@ -29,11 +29,15 @@ That should be it.
 2. Pathogen (in autoload directory)
 3. CtrlP
 4. NERDTree
-5. SuperTAB
+5. SuperTAB (using &lt;c-space&gt;)
 6. Syntastic
 7. VIM Commentary
+8. VIM Autoclose
+9. Tabular
+10. snipMate
+11. emmet
 
-**Color scheme**: solarized dark
+**Color scheme**: molokai
 
 ## Config
 
@@ -59,5 +63,7 @@ You can use **,eh** to edit hosts file.
 
 **,f** to find currently opened file in NERDTree.
 
+Use **,=** to align on *=*
 
+Use **<c-space>** for SuperTab completion.
 
