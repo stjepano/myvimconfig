@@ -32,6 +32,10 @@ That should be it.
 5. SuperTAB
 6. Syntastic
 7. VIM Commentary
+8. VIM Autoclose
+9. Tabular
+10. snipMate
+11. emmet
 
 **Color scheme**: solarized dark
 
@@ -59,5 +63,7 @@ You can use **,eh** to edit hosts file.
 
 **,f** to find currently opened file in NERDTree.
 
+Use **,=** to align on *=*
 
+Use **<c-space>** for SuperTab completion.
 
